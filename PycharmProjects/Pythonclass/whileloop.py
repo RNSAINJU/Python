@@ -6,12 +6,22 @@
 #     print(count)
 
 #!/usr/bin/env python3.7
-import time
-count = 10
+# import time
+# count = 10
+# while True:
+#     print(count)
+#     if count <= 0:
+#         print('Happy Birthday')
+#         break
+#     time.sleep(1)
+#     count -= 1
+
+
+a , b=0,1
+
 while True:
-    print(count)
-    if count <= 0:
-        print('Happy Birthday')
+    a ,b = b, a+b
+
+    if a>=50:
         break
-    time.sleep(1)
-    count -= 1
+    print(a)
