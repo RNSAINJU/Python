@@ -11,6 +11,12 @@
 # for x in thislist:
 #      print(x)
 
+#counts given placement
+print(thislist.count("name"))
+
+#gives index
+thislist.index("apple")
+
 # Print the number of items in the list:
 # print(len(thislist))
 
@@ -36,6 +42,8 @@
 # The clear() method empties the list:
 # thislist.clear()
 
+thislist.extend("name")
+['n','a','m','e']
 # Using the list() constructor to make a List:
 # thislist1=list((thislist))
 
